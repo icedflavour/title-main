@@ -12,4 +12,8 @@ body {
     .btn-header {
         @apply bg-transparent text-[#212529] p-2 font-header font-medium flex items-center gap-2
     } 
+
+    .btn-nav {
+        @apply bg-[#212529] py-3 font-header font-bold flex items-center justify-center text-[#F8F9FA] uppercase grow
+    }
 }
