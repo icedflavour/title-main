@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        header: ['Rubik']
+        main: ['Rubik'],
+        footer: ['Open Sans']
       }
     },
   },
