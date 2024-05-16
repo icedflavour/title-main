@@ -1,7 +1,7 @@
 <template>
     <footer>
-        <div class="h-40 bg-[#212529] flex justify-center items-center gap-24">
-            <div class="w-64 flex flex-col justify-center items-center">    
+        <div class="h-60 bg-[#212529] flex justify-center items-center gap-24">
+            <div class="w-64 flex flex-col justify-center items-center ">    
                 <h2 class="footer-heading mb-1">Information</h2>
                 <ul class="footer-list">
                     <li>About Us</li>

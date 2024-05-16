@@ -19,10 +19,10 @@ body {
     }
 
     .footer-heading {
-        @apply text-[#F8F9FA] text-lg font-footer font-normal
+        @apply text-[#F8F9FA] text-xl font-footer font-bold w-full
     }
 
     .footer-list {
-        @apply text-[#F8F9FA] text-xs font-footer font-normal flex flex-col gap-1
+        @apply text-[#F8F9FA] text-sm font-footer font-normal flex flex-col gap-1 w-full
     }
 }
