@@ -1,33 +1,32 @@
 <template>
     <nav class="flex w-screen bg-[#212529] justify-center items-center px-8">
-        <div class="bg-[#F8F9FA] h-[30px] w-[3px] rounded-full"></div>
-        <button class="btn-nav">
-            Categories
-        </button>
-        <div class="bg-[#F8F9FA] h-[30px] w-[3px] rounded-full"></div>
-        <button class="btn-nav">
-            Gloves
-        </button>
-        <div class="bg-[#F8F9FA] h-[30px] w-[3px] rounded-full"></div>
-        <button class="btn-nav">
-            Boxing Shoes
-        </button>
-        <div class="bg-[#F8F9FA] h-[30px] w-[3px] rounded-full"></div>
-        <button class="btn-nav">
-            TOP Sellers
-        </button>
-        <div class="bg-[#F8F9FA] h-[30px] w-[3px] rounded-full"></div>
-        <button class="btn-nav">
-            New
-        </button>
-        <div class="bg-[#F8F9FA] h-[30px] w-[3px] rounded-full"></div>
-        <button class="btn-nav">
-            Sale
-        </button>
-        <div class="bg-[#F8F9FA] h-[30px] w-[3px] rounded-full"></div>
-        <button class="btn-nav">
-            Contacts
-        </button>
-        <div class="bg-[#F8F9FA] h-[30px] w-[3px] rounded-full"></div>
+      <NavLine></NavLine>
+      <NavButton label="Категорії">
+        <Dropdown>
+          <DropdownItem>Боксерські рукавички</DropdownItem>
+          <DropdownItem>Захист</DropdownItem>
+          <DropdownItem>Одяг</DropdownItem>
+          <DropdownItem>Тренерам</DropdownItem>
+          <DropdownItem>Фітнес</DropdownItem>
+          <DropdownItem>Аксесуари</DropdownItem>
+          <DropdownItem>ММА та Муай-тай</DropdownItem>
+        </Dropdown>
+      </NavButton>
+      <NavLine></NavLine>
+      <NavButton label="Рукавички"></NavButton>
+      <NavLine></NavLine>
+      <NavButton label="Боксерки"></NavButton>
+      <NavLine></NavLine>
+      <NavButton label="ТОП продажів"></NavButton>
+      <NavLine></NavLine>
+      <NavButton label="Нові"></NavButton>
+      <NavLine></NavLine>
+      <NavButton label="Розпродаж"></NavButton>
+      <NavLine></NavLine>
+      <NavButton label="Контакти"></NavButton>
+      <NavLine></NavLine>
     </nav>
-</template>
+  </template>
+  
+  <script setup>
+  </script>

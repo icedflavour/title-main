@@ -15,7 +15,7 @@ body {
     } 
 
     .btn-nav {
-        @apply bg-[#212529] py-3 font-main font-bold flex items-center justify-center text-[#F8F9FA] uppercase grow
+        @apply bg-[#212529] py-3 px-8 font-main font-bold flex items-center justify-center text-[#F8F9FA] uppercase grow
     }
 
     .footer-heading {
