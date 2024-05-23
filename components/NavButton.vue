@@ -1,5 +1,5 @@
 <template>
-    <div class="relative group">
+    <div @mouseenter="handleMouseEnter">
       <button class="btn-nav">
         {{ label }}
       </button>
@@ -11,4 +11,10 @@
   defineProps({
     label: String
   });
+
+  const emit = defineEmits(['hover']);
+
+  const handleMouseEnter = () => {
+    emit('hover', props.label);
+  };
   </script>
