@@ -1,5 +1,5 @@
 <template>
-    <div @mouseenter="handleMouseEnter">
+    <div @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
       <button class="btn-nav">
         {{ label }}
       </button>
@@ -12,9 +12,14 @@
     label: String
   });
 
-  const emit = defineEmits(['hover']);
+  const emit = defineEmits(['hover-change']);
 
   const handleMouseEnter = () => {
-    emit('hover', props.label);
+    emit('hover-change', true);
   };
+
+  const handleMouseLeave = () => {
+    emit('hover-change', false);
+  };
+  
   </script>
