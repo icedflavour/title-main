@@ -1,13 +1,15 @@
 <template>
     <div>
-        <h2 class="bg-gray-400 p-4">Home Page</h2>
-        <NuxtLink to="/catalog">To Catalog</NuxtLink>
-        <NuxtLink to="/order">To Order</NuxtLink>
-        <NuxtLink to="/">To Home</NuxtLink>
+        <SliderCarousel></SliderCarousel>
+        <Catalog />
     </div>
 </template>
 
 <script>
+import SliderCarousel from '~/components/SliderCarousel.vue';
+import CartIcon from '@/components/CartIcon.vue';
+import Catalog from '@/components/Catalog.vue';
+
     definePageMeta({
         layout: 'default'
     })
